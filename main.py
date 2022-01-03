@@ -188,7 +188,7 @@ entry_website.grid(column=1, row=5)
 label_email = Label(text="Email / UserName:", font=(FONT_NAME, 10), justify='left', bg=BACKGROUND, fg=FONT_COLOR)
 label_email.grid(column=0, row=6)
 
-default_email = "juanbsirai664@gmail.com"
+default_email = "your_user_name@some_domain.com"
 entry_userName = Entry(width=25)
 entry_userName.insert(index=0, string=default_email)
 entry_userName.grid(column=1, row=6)
